@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'restaurantAPI'
+    'restaurantAPI',
+    'rest_framework',
+    
 ]
 
 MIDDLEWARE = [
@@ -79,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'LittleLemon',
         'HOST': 'localhost',
-        'USER': 'littlelemon',
+        'USER': 'adminll',
         'PASSWORD': 'lemon@123!',
         'PORT': '3306',
         'OPTIONS': {
